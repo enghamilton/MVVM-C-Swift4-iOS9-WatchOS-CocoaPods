@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BC6380241079340002D38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC637F241079340002D38C /* AppDelegate.swift */; };
+		67BC6382241079340002D38C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC6381241079340002D38C /* SceneDelegate.swift */; };
+		67BC6384241079340002D38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC6383241079340002D38C /* ViewController.swift */; };
+		67BC6387241079340002D38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BC6385241079340002D38C /* Main.storyboard */; };
+		67BC6389241079350002D38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BC6388241079350002D38C /* Assets.xcassets */; };
+		67BC638C241079350002D38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BC638A241079350002D38C /* LaunchScreen.storyboard */; };
+		67BC6397241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC6396241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift */; };
+		67BC63A2241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC63A1241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift */; };
+		67BC63A7241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67BC63A6241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67BC63AD241079350002D38C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BC63AB241079350002D38C /* Interface.storyboard */; };
+		67BC63AF241079360002D38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BC63AE241079360002D38C /* Assets.xcassets */; };
+		67BC63B6241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67BC63B5241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67BC63BB241079360002D38C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC63BA241079360002D38C /* InterfaceController.swift */; };
+		67BC63BD241079360002D38C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC63BC241079360002D38C /* ExtensionDelegate.swift */; };
+		67BC63BF241079360002D38C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC63BE241079360002D38C /* NotificationController.swift */; };
+		67BC63C1241079360002D38C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC63C0241079360002D38C /* ComplicationController.swift */; };
+		67BC63C3241079370002D38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BC63C2241079370002D38C /* Assets.xcassets */; };
+		67BDC3C024107CC100E543ED /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDC3BF24107CC100E543ED /* RowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BC6393241079350002D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BC6374241079340002D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BC637B241079340002D38C;
+			remoteInfo = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+		};
+		67BC639E241079350002D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BC6374241079340002D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BC637B241079340002D38C;
+			remoteInfo = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+		};
+		67BC63A8241079350002D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BC6374241079340002D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BC63A5241079350002D38C;
+			remoteInfo = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App";
+		};
+		67BC63B7241079360002D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BC6374241079340002D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BC63B4241079360002D38C;
+			remoteInfo = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67BC63CB241079370002D38C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67BC63B6241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC63CF241079370002D38C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67BC63A7241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67BC637C241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BC637F241079340002D38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67BC6381241079340002D38C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67BC6383241079340002D38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67BC6386241079340002D38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67BC6388241079350002D38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BC638B241079350002D38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67BC638D241079350002D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BC6392241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BC6396241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift; sourceTree = "<group>"; };
+		67BC6398241079350002D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BC639D241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BC63A1241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift; sourceTree = "<group>"; };
+		67BC63A3241079350002D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BC63A6241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BC63AC241079350002D38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		67BC63AE241079360002D38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BC63B0241079360002D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BC63B5241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BC63BA241079360002D38C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		67BC63BC241079360002D38C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		67BC63BE241079360002D38C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		67BC63C0241079360002D38C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		67BC63C2241079370002D38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BC63C4241079370002D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BC63C5241079370002D38C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		67BDC3BF24107CC100E543ED /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BC6379241079340002D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC638F241079350002D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC639A241079350002D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC63B2241079360002D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BC6373241079340002D38C = {
+			isa = PBXGroup;
+			children = (
+				67BC637E241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */,
+				67BC6395241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests */,
+				67BC63A0241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests */,
+				67BC63AA241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App */,
+				67BC63B9241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension */,
+				67BC637D241079340002D38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BC637D241079340002D38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BC637C241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app */,
+				67BC6392241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests.xctest */,
+				67BC639D241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests.xctest */,
+				67BC63A6241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app */,
+				67BC63B5241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BC637E241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				67BC637F241079340002D38C /* AppDelegate.swift */,
+				67BC6381241079340002D38C /* SceneDelegate.swift */,
+				67BC6383241079340002D38C /* ViewController.swift */,
+				67BC6385241079340002D38C /* Main.storyboard */,
+				67BC6388241079350002D38C /* Assets.xcassets */,
+				67BC638A241079350002D38C /* LaunchScreen.storyboard */,
+				67BC638D241079350002D38C /* Info.plist */,
+			);
+			path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			sourceTree = "<group>";
+		};
+		67BC6395241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BC6396241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift */,
+				67BC6398241079350002D38C /* Info.plist */,
+			);
+			path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests";
+			sourceTree = "<group>";
+		};
+		67BC63A0241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BC63A1241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift */,
+				67BC63A3241079350002D38C /* Info.plist */,
+			);
+			path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests";
+			sourceTree = "<group>";
+		};
+		67BC63AA241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				67BC63AB241079350002D38C /* Interface.storyboard */,
+				67BC63AE241079360002D38C /* Assets.xcassets */,
+				67BC63B0241079360002D38C /* Info.plist */,
+			);
+			path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App";
+			sourceTree = "<group>";
+		};
+		67BC63B9241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67BC63BA241079360002D38C /* InterfaceController.swift */,
+				67BC63BC241079360002D38C /* ExtensionDelegate.swift */,
+				67BC63BE241079360002D38C /* NotificationController.swift */,
+				67BC63C0241079360002D38C /* ComplicationController.swift */,
+				67BC63C2241079370002D38C /* Assets.xcassets */,
+				67BC63C4241079370002D38C /* Info.plist */,
+				67BC63C5241079370002D38C /* PushNotificationPayload.apns */,
+				67BDC3BF24107CC100E543ED /* RowController.swift */,
+			);
+			path = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BC637B241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BC63D0241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods" */;
+			buildPhases = (
+				67BC6378241079340002D38C /* Sources */,
+				67BC6379241079340002D38C /* Frameworks */,
+				67BC637A241079340002D38C /* Resources */,
+				67BC63CF241079370002D38C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BC63A9241079350002D38C /* PBXTargetDependency */,
+			);
+			name = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			productName = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			productReference = 67BC637C241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BC6391241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BC63D3241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests" */;
+			buildPhases = (
+				67BC638E241079350002D38C /* Sources */,
+				67BC638F241079350002D38C /* Frameworks */,
+				67BC6390241079350002D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BC6394241079350002D38C /* PBXTargetDependency */,
+			);
+			name = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests";
+			productName = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests";
+			productReference = 67BC6392241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67BC639C241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BC63D6241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests" */;
+			buildPhases = (
+				67BC6399241079350002D38C /* Sources */,
+				67BC639A241079350002D38C /* Frameworks */,
+				67BC639B241079350002D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BC639F241079350002D38C /* PBXTargetDependency */,
+			);
+			name = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests";
+			productName = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests";
+			productReference = 67BC639D241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		67BC63A5241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BC63CC241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App" */;
+			buildPhases = (
+				67BC63A4241079350002D38C /* Resources */,
+				67BC63CB241079370002D38C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BC63B8241079360002D38C /* PBXTargetDependency */,
+			);
+			name = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App";
+			productName = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App";
+			productReference = 67BC63A6241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		67BC63B4241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BC63C8241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension" */;
+			buildPhases = (
+				67BC63B1241079360002D38C /* Sources */,
+				67BC63B2241079360002D38C /* Frameworks */,
+				67BC63B3241079360002D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension";
+			productName = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension";
+			productReference = 67BC63B5241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BC6374241079340002D38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user164900;
+				TargetAttributes = {
+					67BC637B241079340002D38C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					67BC6391241079350002D38C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BC637B241079340002D38C;
+					};
+					67BC639C241079350002D38C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BC637B241079340002D38C;
+					};
+					67BC63A5241079350002D38C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					67BC63B4241079360002D38C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 67BC6377241079340002D38C /* Build configuration list for PBXProject "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BC6373241079340002D38C;
+			productRefGroup = 67BC637D241079340002D38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BC637B241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */,
+				67BC6391241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests */,
+				67BC639C241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests */,
+				67BC63A5241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App */,
+				67BC63B4241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BC637A241079340002D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC638C241079350002D38C /* LaunchScreen.storyboard in Resources */,
+				67BC6389241079350002D38C /* Assets.xcassets in Resources */,
+				67BC6387241079340002D38C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC6390241079350002D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC639B241079350002D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC63A4241079350002D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC63AF241079360002D38C /* Assets.xcassets in Resources */,
+				67BC63AD241079350002D38C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC63B3241079360002D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC63C3241079370002D38C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BC6378241079340002D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC6384241079340002D38C /* ViewController.swift in Sources */,
+				67BC6380241079340002D38C /* AppDelegate.swift in Sources */,
+				67BC6382241079340002D38C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC638E241079350002D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC6397241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC6399241079350002D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC63A2241079350002D38C /* MVVM_C_Swift4_iOS9_WatchOS_CocoaPodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC63B1241079360002D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BDC3C024107CC100E543ED /* RowController.swift in Sources */,
+				67BC63BF241079360002D38C /* NotificationController.swift in Sources */,
+				67BC63C1241079360002D38C /* ComplicationController.swift in Sources */,
+				67BC63BD241079360002D38C /* ExtensionDelegate.swift in Sources */,
+				67BC63BB241079360002D38C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BC6394241079350002D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BC637B241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */;
+			targetProxy = 67BC6393241079350002D38C /* PBXContainerItemProxy */;
+		};
+		67BC639F241079350002D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BC637B241079340002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods */;
+			targetProxy = 67BC639E241079350002D38C /* PBXContainerItemProxy */;
+		};
+		67BC63A9241079350002D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BC63A5241079350002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App */;
+			targetProxy = 67BC63A8241079350002D38C /* PBXContainerItemProxy */;
+		};
+		67BC63B8241079360002D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BC63B4241079360002D38C /* MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension */;
+			targetProxy = 67BC63B7241079360002D38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BC6385241079340002D38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BC6386241079340002D38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67BC638A241079350002D38C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BC638B241079350002D38C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67BC63AB241079350002D38C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BC63AC241079350002D38C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BC63C6241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BC63C7241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BC63C9241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		67BC63CA241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		67BC63CD241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_Extension;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		67BC63CE241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_Extension;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		67BC63D1241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BC63D2241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67BC63D4241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app/MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			};
+			name = Debug;
+		};
+		67BC63D5241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-C-Swift4-iOS9-WatchOS-CocoaPods.app/MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			};
+			name = Release;
+		};
+		67BC63D7241079370002D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			};
+			name = Debug;
+		};
+		67BC63D8241079370002D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enghamilton.MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BC6377241079340002D38C /* Build configuration list for PBXProject "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63C6241079370002D38C /* Debug */,
+				67BC63C7241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BC63C8241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63C9241079370002D38C /* Debug */,
+				67BC63CA241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BC63CC241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63CD241079370002D38C /* Debug */,
+				67BC63CE241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BC63D0241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63D1241079370002D38C /* Debug */,
+				67BC63D2241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BC63D3241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63D4241079370002D38C /* Debug */,
+				67BC63D5241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BC63D6241079370002D38C /* Build configuration list for PBXNativeTarget "MVVM-C-Swift4-iOS9-WatchOS-CocoaPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BC63D7241079370002D38C /* Debug */,
+				67BC63D8241079370002D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BC6374241079340002D38C /* Project object */;
+}
