@@ -6,17 +6,17 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Main WatchKit-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_App" customModuleProvider="target">
+                <controller title="Main WatchKit" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_App" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="6Oc-uB-AlX">
                             <items>
-                                <tableRow id="znj-Id-ghr" customClass="RowController" customModule="MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_Extension">
+                                <tableRow identifier="RowController" id="znj-Id-ghr" customClass="RowController" customModule="MVVM_C_Swift4_iOS9_WatchOS_CocoaPods_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="2Fu-dF-2Cp">
                                         <items>
-                                            <label width="136" height="21" alignment="left" text="Label" id="YqV-tI-4iR"/>
+                                            <label width="136" height="21" alignment="left" text="Hamilton" id="YqV-tI-4iR"/>
                                         </items>
                                     </group>
                                     <connections>

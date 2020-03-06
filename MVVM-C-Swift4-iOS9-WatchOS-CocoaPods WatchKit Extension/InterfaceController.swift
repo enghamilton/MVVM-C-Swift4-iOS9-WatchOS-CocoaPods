@@ -20,6 +20,7 @@ class InterfaceController: WKInterfaceController {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+        loadTableData()
     }
     
     override func willActivate() {
